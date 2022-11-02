@@ -11,5 +11,3 @@ while n<=m:
     if count==2:
         print(n)
     n+=1
-        
-        
