@@ -11,8 +11,8 @@ d={}
 for i in l:
     k=digicount(i)
     d[i]=k
-c=0
+co=0
 for i,j in d.items():
     if j==min(d.values()):
-        c+=1
-print(c)
+        co+=1
+print(co)
